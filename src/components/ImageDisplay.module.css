@@ -1,0 +1,14 @@
+
+.title {
+    width: 240px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
